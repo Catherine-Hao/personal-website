@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- All of the meta data for the page belongs in the header tag -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/RH_favicon.ico">
+	<!-- <link rel="stylesheet" href="css/html5reset.css"> -->
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9f2d582894.js" crossorigin="anonymous"></script>
+	<title>Project | Ruolin Hao</title>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-BFKWDQYGZL"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-BFKWDQYGZL');
+	</script>
+</head>
+
+<body id='proj-body'>
+	<div class="skip"><a href="#proj-main">Skip to Main Content</a></div>
+	<header id='proj-header'>
+		<!-- <img src="images/Ruolin_Hao.jpg" class="rhao" alt="a_potrait_of_me"/> -->
+		<img src="images/logo.jpeg" alt="my_logo" id ="logo">
+		<nav class="nav_links">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li class="current"><a href="project.html">Project</a></li>
+				<li><a href="misc.html">Misc</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main id='proj-main'>
+		<div class="proj-grid">
+			<!-- <div class="energy_proj_img">
+				<img src="images/energy_proj.jpeg" alt="energy_proj_img" width="200"/>
+			</div> -->
+
+			<div class="stock_proj_text">
+				<a href="images/stock_proj_poster.png">
+					<h1>Mining Trading Signals among High Market Capacity Stocks in Nasdaq</h1>
+					<p>
+						For the final project of Data Mining, our team first accessed stock price time series data with more than 5 billion market capacity via MarketStack API.
+						Then, we conducted feature engineering based on trading signals, such as K-line patterns, Moving Average, Relative Strength Index, etc.
+						Lastly, we ranked and demonstrated the predictive power of signals using Decision Tree, T-Test and histograms.
+					</p>
+				</a>
+			</div>
+
+			<div class="energy_proj_text">
+				<!-- <a href="https://public.tableau.com/app/profile/ruolin.hao/viz/SI649FinalProject/Dashboard1?publish=yes"> -->
+					<h1>Solar and Wind Plant Day-ahead Power Generation Forecast</h1>
+					<p>
+						During the time I worked as a Data Analyst in Greenwich Commodities LLC, I applied multiple Machine Learning models,
+						and selected the optimal linear regression model. Also, I built and maintained databases for National Weather Service data and PJM power plant generation data,
+						and finally visualized the daily trend of generations using folium and provided insights for future market price.
+					</p>
+				<!-- </a> -->
+			</div>
+
+
+			<!-- <div class="ev_proj_img">
+				<img src="images/ev_proj.jpeg" alt="ev_project_img" width="200"/>
+			</div> -->
+			<div class="ev_proj_text" onclick="location.href='https://public.tableau.com/app/profile/ruolin.hao/viz/SI649FinalProject/Dashboard1?publish=yes';">
+				<a href="https://public.tableau.com/app/profile/ruolin.hao/viz/SI649FinalProject/Dashboard1?publish=yes">
+					<h1>U.S. Electric Vehicle (EV) Market Dashboard</h1>
+					<p>
+						For the final project of SI 649 - Information Visualization, our team developed a website presenting EV’s geographic distribution and holding rate with Tableau Public.
+		 				It helped with examine the patterns of EV market share and contribute to the decision-making to potenial EV consumers.
+					</p>
+				</a>
+			</div>
+
+
+			<!-- <div class="used_car_proj_img">
+				<img src="images/used_car_proj.jpeg" alt="used_car_proj_img" width="200"/>
+			</div> -->
+			<div class="used_car_proj_text">
+				<a href="https://medium.com/@haorlin/for-all-wolverines-heres-a-used-car-recommendation-system-just-for-you-2ded8d699f3d">
+					<h1>Used Cars Search Engine for Wolverines</h1>
+					<p>
+						With information retrieval techniques, our team applied Beautiful Soup library to scrape used cars and their complaints data from Carfax and NHTSA.
+						Then, we retrieved most relevant results using improved BM25 score and Learning to Rank approaches.
+						Lastly, we utilized TextRank algorithm to extract keywords of car model reviews and displayed them with word clouds.		</p>
+				</a>
+			</div>
+
+
+			<!-- <div class="imdb_proj_img">
+				<img src="images/imdb_proj.jpeg" alt="imdb_proj_img" width="200"/>
+			</div> -->
+			<div class="imdb_proj_text">
+				<a href="https://github.com/Catherine-Hao/SI507-final-project">
+					<h1>IMDb Top 1000 Movie Recommendation System</h1>
+					<p>
+						This project accessed IMDb movies and reviews via API Keys, organized the movie dataset into a tree structure,
+						created the system based on the hierarchy of users’ preferences,and lastly presented interactive interface with Flask.		</p>
+				</a>
+			</div>
+		</div>
+
+	</main>
+
+	<footer id='proj-footer'>
+		<div class="contact_info">
+			<div class="contact-column" id='index-contact'>
+				<!-- <p>Contact:</p> -->
+			</div>
+			<div class="contact-column">
+				<div>
+					<a href="mailto:haorlin@umich.edu"><i class="fa-solid fa-square-envelope fa-2xl"></i></a>
+				</div>
+			</div>
+			<div class="contact-column">
+				<div class="contact-column">
+					<a href="http://www.linkedin.com/in/ruolin-hao"><i class="fa-brands fa-linkedin  fa-2xl"></i></a>
+				</div>
+			</div>
+			<div class="contact-column">
+				<div class="contact-column">
+					<a href="https://medium.com/@haorlin"><i class="fa-brands fa-medium  fa-2xl"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
