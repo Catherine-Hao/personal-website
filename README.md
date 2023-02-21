@@ -1,3 +1,4 @@
 # portfolio-content
 
-I'm creating a personal website, which include my basic info, like stories, resume, projects, and miscellous.
+This is a personal website, which includes my basic info, like stories, resume, projects, and miscellous.
+Link: https://catherine-hao.github.io/personal-website/.
